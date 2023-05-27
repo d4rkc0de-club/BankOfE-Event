@@ -1,0 +1,2 @@
+uname: lvlB
+passwd: d4rk{3x4mpl3}c0de
