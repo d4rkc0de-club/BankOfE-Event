@@ -1,20 +1,16 @@
 ## Decompiling the pyc
-Since its a .pyc file we first try to use online tools to decompile it
+We're given a `.pyc` file. If we google it, we'll find that it's a compiled python file. We can't read it directly, but we can decompile it.
+Hence, we try to decompile it online.
 
-![image](https://github.com/d4rkc0de-club/BankOfE/assets/64488123/d7d5d999-b04b-40da-b3ba-280d9e9e4c11)
+![Decompilation Attempt](images/1.png)
 
-As we can see that it cant decompile the work function which is where most of the encrpytion is happening but it identifies it as python 3.8
+As we can see, it can't decompile the work function, which is where most of the encrpytion is happening. However, it does identify it as python 3.8.
 
-So, now we install Decompyle6 library and then try to decompyle it ourselves on a machine having python 3.8
+If you google `Python 3,.8 Decompilation`, you'll fing the `uncompyle6` libraty. Hence, we install `uncompyle6` and then try to decompyle it ourselves on a machine having `python3.8`.
 
-![image](https://github.com/d4rkc0de-club/BankOfE/assets/64488123/6b676b1a-52d4-4874-88e5-5c245d98dbb5)
+![Installing Uncompyle6](images/2.png)
+![Decompiled Code](images/3.png)
 
+Here we see that it successfully decompiles the work function. Now, with the encryptor with ourselves, let's try to decrypt it.
 
-![image](https://github.com/d4rkc0de-club/BankOfE/assets/64488123/99d567c1-b061-491b-9b84-7f3c7acff3c6)
-
-
-In here we see that it successfully decompiles the work function
-
-Now with the encryptor with ourselves lets try to decrypt it
-
-PS:- Self explanatory dec.py
+PS: Self-explanatory [dec.py](dec.py)
