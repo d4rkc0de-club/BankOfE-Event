@@ -6,7 +6,7 @@ Hence, we try to decompile it online.
 
 As we can see, it can't decompile the work function, which is where most of the encrpytion is happening. However, it does identify it as python 3.8.
 
-If you google `Python 3,.8 Decompilation`, you'll fing the `uncompyle6` libraty. Hence, we install `uncompyle6` and then try to decompyle it ourselves on a machine having `python3.8`.
+If you google `Python 3.8 Decompilation`, you'll fing the `uncompyle6` libraty. Hence, we install `uncompyle6` and then try to decompyle it ourselves on a machine having `python3.8`.
 
 ![Installing Uncompyle6](images/2.png)
 ![Decompiled Code](images/3.png)
