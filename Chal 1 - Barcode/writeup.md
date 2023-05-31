@@ -2,7 +2,7 @@
 
 In this challenge, we were given a barcode image and asked to reverse it. The barcode image is shown below:
 
-![barcode](Challenge/3nc0ded.png)
+![barcode](https://github.com/d4rkc0de-club/BankOfE/blob/main/Chal%201%20-%20Barcode/Challenge/3nc0d3d.png?raw=true)
 
 # Solution
 ## Understand the generation
@@ -17,14 +17,14 @@ for char in text_to_encrypt:
     binary += (bin(ord(char))[2:]).zfill(8)
 ```
 
-This tells us that we are taking `text_to_encrypt`, converting each character into it's 8 bit form, and concatenating them together to form a long strig
+This tells us that we are taking `text_to_encrypt`, converting each character into it's 8 bit form, and concatenating them together to form a long string
 
 ```python
 HEIGHT: int = len(binary) // 4
 PADDING_X: int = len(binary) // 16
 PADDING_Y: int = HEIGHT // 4
 ```
-There are also some constants here which are less important now, but their will be used later when decrypting.
+There are also some constants here which are less important now, but they will be used later when decrypting.
 ```python
 image = Image.new('RGB', (len(binary) + 2 * PADDING_X,
                   HEIGHT + 2 * PADDING_Y), (255, 255, 255))
