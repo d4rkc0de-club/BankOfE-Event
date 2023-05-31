@@ -9,7 +9,7 @@
    ░          ░  ░   ░     ░  ░   ░ ░          ░ ░     ░       ░  ░
  ░                                ░                  ░             
 
-Subject: Recuirtment
+Subject: Recruitment
 
 We are looking for higly intelligent individuals to help us break into Bank of E.
 A single vulnerability is all it takes to fail such an operation.

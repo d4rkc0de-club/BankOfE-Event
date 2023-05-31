@@ -2,7 +2,7 @@
 
 In this challenge, we were given a barcode image and asked to reverse it. The barcode image is shown below:
 
-![barcode](https://github.com/d4rkc0de-club/BankOfE/blob/main/Chal%201%20-%20Barcode/Challenge/3nc0d3d.png?raw=true)
+![barcode](https://github.com/d4rkc0de-club/BankOfE-Event/blob/main/Chal%201%20-%20Barcode/Challenge/3nc0d3d.png?raw=true)
 
 # Solution
 ## Understand the generation
